@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="titulo">
+            <img src="img/j.png" alt="" class="logo-titulo">
+            <h1>¡Encriptador de texto!</h1>
+        </div>
+    </header>
+
+    <main class="contenedor-principal">
+
+        <section class="container1">
+
+            <div class="tarjeta1">
+                <div class="mensaje-contenedor">
+
+                    <input 
+                        autofocus 
+                        type="text" 
+                        id="mensaje" 
+                        placeholder="Ingrese su mensaje"
+                    >
+                 
+                    <div class="contenedor-errores"></div>
+                </div>
+
+                <div class="contenedor-botones">
+                    <button class="btn-copy" id="encriptar">Encriptar</button>
+                    <button class="btn-copy" id="desencriptar">Desencriptar</button>
+                </div>
+
+                <div class="advertencia">
+                    <div>
+                        <span>
+                            <p>
+                                &#9888; Solo letras minúsculas y sin acentos
+                            </p>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="container2">
+            <img src="img/1.png" alt="" class="img-look">
+
+            <div class="tarjeta2">
+                <div class="mensaje-contenedor">
+                    <input type="text" id="resultado" placeholder="¡Ningún mensaje fue encontrado!">
+                </div>
+
+                <div class="contenedor-botones">
+                    <button class="btn-copy" id="copiar">Copiar</button>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+    <script src="js/code.js"></script>
+</body>
+
+<footer>
+    <p class="pie">&copy; Programa de encriptación</p>
+  </footer>
+</html>
